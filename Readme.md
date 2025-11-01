@@ -30,7 +30,7 @@
 setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
 ```
 - Например: ```setx /M PATH "%PATH%;D:\Coub\coub-dl\FFmpeg\bin"```
-4. Обновите пути в ```coub_gui.py``` (если папка Coub находится на другом диске)
+4. Обновите пути в ```coub_gui.py``` (если папка Coub находится по другому пути)
   ```cmd
   self.nodejs_path = r"d:\Coub\coub-dl\Node.js\node.exe"
   self.coub_dl_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl.js"
@@ -42,7 +42,7 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
       "audio": r"d:\Coub\coub-audio",
       "no_audio": r"d:\Coub\coub-no-audio"
   ```
-5. Запустите файл start_coub_gui.bat
+5. Запустите файл ```start_coub_gui.bat```
 
 ## 🙏 Благодарности: ##
 - [TeeSeal](https://github.com/TeeSeal/coub-dl) - основа проекта, без этого замечательного инструмента ничего бы не получилось.
@@ -53,5 +53,6 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
 
 ## 📄 Лицензия: ##
 - [MIT License](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/License.md)
+
 
 
