@@ -1,7 +1,7 @@
 # Coub Downloader GUI #
 ![Python](https://img.shields.io/badge/Python-3.10.6%2B-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![Платформа](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Лицензия](https://img.shields.io/badge/License-MIT-yellow)
 
 ![Screenshot](https://raw.githubusercontent.com/smi-falcon/Coub-Downloader-GUI/main/Assets/Screenshots/000.png)
 
@@ -24,7 +24,7 @@
 
 ## 🛠️ Установка и настройка: ##
 1. Скачайте и установите [Python](https://www.python.org/downloads/windows/).
-2. Скачайте и распакуйте [Coub-Downloader-GUI](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/Coub-Downloader-GUI.zip).
+2. Скачайте и распакуйте [Coub-Downloader-GUI](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/Downloads/Coub-Downloader-GUI.zip).
 3. Откройте командную строку и добавьте FFmpeg в ```PATH```.
 ```cmd
 setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
@@ -32,15 +32,15 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
 - Например: ```setx /M PATH "%PATH%;D:\Coub\coub-dl\FFmpeg\bin"```
 4. Обновите пути в ```coub_gui.py``` (если папка Coub находится на другом диске)
   ```cmd
-        self.nodejs_path = r"d:\Coub\coub-dl\Node.js\node.exe"
-        self.coub_dl_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl.js"
-        self.coub_dl_mp3_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl-mp3.js"
+  self.nodejs_path = r"d:\Coub\coub-dl\Node.js\node.exe"
+  self.coub_dl_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl.js"
+  self.coub_dl_mp3_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl-mp3.js"
         
-        self.download_folders = {
-            "normal": r"d:\Coub\coub-video",
-            "loop": r"d:\Coub\coub-video-loop", 
-            "audio": r"d:\Coub\coub-audio",
-            "no_audio": r"d:\Coub\coub-no-audio"
+  self.download_folders = {
+      "normal": r"d:\Coub\coub-video",
+      "loop": r"d:\Coub\coub-video-loop", 
+      "audio": r"d:\Coub\coub-audio",
+      "no_audio": r"d:\Coub\coub-no-audio"
   ```
 5. Запустите файл start_coub_gui.bat
 
@@ -53,4 +53,5 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
 
 ## 📄 Лицензия: ##
 - [MIT License](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/License.md)
+
 
