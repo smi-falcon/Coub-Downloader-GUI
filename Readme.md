@@ -30,7 +30,7 @@
 setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ"
 ```
 - Например: ```setx /M PATH "%PATH%;D:\Coub\coub-dl\FFmpeg\bin"```
-4. Обновите пути в ```coub_gui.py``` (если папка Coub находится по другому пути)
+4. Обновите пути в ```coub_gui.py``` (если имя папки и её расположение изменены)
   ```cmd
   self.nodejs_path = r"d:\Coub\coub-dl\Node.js\node.exe"
   self.coub_dl_path = r"d:\Coub\coub-dl\Node.js\node_modules\coub-dl\bin\coub-dl.js"
