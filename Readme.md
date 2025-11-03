@@ -1,9 +1,9 @@
 # Coub Downloader GUI #
 ![Python](https://img.shields.io/badge/Python-3.10.6%2B-blue)
-![Платформа](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![Лицензия](https://img.shields.io/badge/License-MIT-yellow)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-![Screenshot](https://raw.githubusercontent.com/smi-falcon/Coub-Downloader-GUI/main/Assets/Screenshots/000.png)
+![Screenshot](https://raw.githubusercontent.com/smi-falcon/Coub-Downloader-GUI/main/Assets/Screenshots/001.png)
 
 ## 🎯 Описание: ##
 Простой и удобный графический интерфейс для скачивания видео и аудио с Coub.
@@ -11,8 +11,8 @@
 ## 📚 Возможности: ##
 - **Обычное видео** - короткое стандартное видео.
 - **Длинное аудио (loop)** - видео с зацикленным аудио (999 повторов).
+- **Только видео** - видео без звуковой дорожки.
 - **Только аудио** - извлечение аудио в MP3 формате.
-- **Без аудио** - видео без звуковой дорожки.
 - Быстрая вставка ссылок из буфера обмена.
 - Автоматическая сортировка по папкам.
 - Визуальный прогресс выполнения операций.
@@ -27,7 +27,7 @@
 2. Скачайте и распакуйте [Coub-Downloader-GUI](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/Downloads/Coub-Downloader-GUI.zip).
 3. Откройте командную строку и добавьте FFmpeg в ```PATH```.
 ```cmd
-setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
+setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ"
 ```
 - Например: ```setx /M PATH "%PATH%;D:\Coub\coub-dl\FFmpeg\bin"```
 4. Обновите пути в ```coub_gui.py``` (если папка Coub находится по другому пути)
@@ -42,6 +42,10 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
       "audio": r"d:\Coub\coub-audio",
       "no_audio": r"d:\Coub\coub-no-audio"
   ```
+5. Установите зависимости: 
+```cmd
+pip install pillow
+```
 5. Запустите файл ```start_coub_gui.bat```
 
 ## 🙏 Благодарности: ##
@@ -53,6 +57,7 @@ setx /M PATH "%PATH%;ВАШ_НОВЫЙ_ПУТЬ""
 
 ## 📄 Лицензия: ##
 - [MIT License](https://github.com/smi-falcon/Coub-Downloader-GUI/blob/main/License.md)
+
 
 
 
